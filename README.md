@@ -1,4 +1,4 @@
-#Symfony2 Twilio Bundle - by [Fridolin Koch](http://fkse.io)
+Symfony Twilio Bundle - by [Fridolin Koch](http://fkse.io) forked and update for Symfony 4.X by Hamza Amrouche
 
 [![Build Status](https://travis-ci.org/fridolin-koch/VreshTwilioBundle.png?branch=master)](https://travis-ci.org/fridolin-koch/VreshTwilioBundle)
 

@@ -1,6 +1,7 @@
 <?php
 namespace Vresh\TwilioBundle\Tests\DependencyInjection;
 
+use PHPUnit\Framework\TestCase;
 use Symfony\Component\Yaml\Parser;
 use Vresh\TwilioBundle\DependencyInjection\Configuration;
 /**
@@ -9,7 +10,7 @@ use Vresh\TwilioBundle\DependencyInjection\Configuration;
  * @author Fridolin Koch <info@fridokoch.de>
  *
  */
-class ConfigurationTest extends \PHPUnit_Framework_TestCase
+class ConfigurationTest extends TestCase
 {
     /**
      * @test

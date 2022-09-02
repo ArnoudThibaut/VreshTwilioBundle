@@ -1,6 +1,7 @@
 <?php
 namespace Vresh\TwilioBundle\Tests\DependencyInjection;
 
+use PHPUnit\Framework\TestCase;
 use Vresh\TwilioBundle\Service\TwilioLookupsWrapper;
 use Vresh\TwilioBundle\Service\TwilioWrapper,
     Vresh\TwilioBundle\Service\TwilioCapabilityWrapper;
@@ -11,7 +12,7 @@ use Vresh\TwilioBundle\Service\TwilioWrapper,
  * @author Fridolin Koch <info@fridokoch.de>
  *
  */
-class TwilioWrapperTest extends \PHPUnit_Framework_TestCase
+class TwilioWrapperTest extends TestCase
 {
     /**
      * @test
